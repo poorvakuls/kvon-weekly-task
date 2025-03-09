@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poorva Kulshrestha | Portfolio</title>
+    <!-- Link to Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f1f6f9;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #5cc6f7, #ff9a8b);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        section {
+            padding: 4rem 1.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .intro h2, .skills h2, .projects h2 {
+            color: #444;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .intro p, .skills p, .projects p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects li {
+            background-color: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .projects li:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+        .projects a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .projects a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            background-color: #0077b5;
+            padding: 0.8rem 1.2rem;
+            border-radius: 25px;
+            margin: 0 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .contact-info a:hover {
+            background-color: #005c8c;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .skills-list {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .skill {
+            background-color: #52d8ec;
+            padding: 0.7rem 1.5rem;
+            border-radius: 30px;
+            font-weight: bold;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+        .skill:hover {
+            background-color: #52d2f2;
+        }
+        .card {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Poorva Kulshrestha</h1>
+            <p>Passionate Web Developer | Problem Solver | Creative Thinker</p>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Hello, I'm Poorva Kulshrestha, a web developer skilled in building creative and responsive web applications. I am passionate about writing clean, maintainable code and creating meaningful user experiences.</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <!-- Gmail Icon -->
+                <a href="mailto:poorvaakulshrestha@gmail.com">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/poorva-kulshrestha" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <!-- GitHub Icon -->
+                <a href="https://github.com/poorvakuls" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>Here are some of the skills that I have acquired:</p>
+            <div class="skills-list">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">Git</div>
+                <div class="skill">quicklearner</div>
+                <div class="skill">leadership</div>
+                <div class="skill">Communication</div>
+                <div class="skill">Problem Solving</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Check out some of my projects that showcase my skills and abilities:</p>
+            <div class="projects">
+                <ul>
+                    <li class="card">
+                        <span><strong>Markdown Editor</strong></span>
+                        <a href="https://github.com/poorvakuls/markdown-editor" target="_blank">View Project</a>
+                    </li>
+                    <li class="card">
+                        <span><strong>CO2 Emission Tracker</strong></span>
+                        <a href="https://github.com/poorvakuls/co2-emission-tracker" target="_blank">View Project</a>
+                    </li>
+                    <li class="card">
+                        <span><strong>To-Do List</strong></span>
+                        <a href="https://github.com/poorvakuls/to-do-list" target="_blank">View Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="additional-info">
+        <div class="container">
+            <h2>Additional Info</h2>
+            <p>I am also a sports person with strong communication skills that help me collaborate efficiently with teams. These skills enable me to be both a technical and a team-oriented developer.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Poorva Kulshrestha | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
