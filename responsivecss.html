@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">TechZone</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TechZone</h1>
+            <p>Your one-stop solution for modern tech services.</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-card">
+            <h2>Web Development</h2>
+            <p>Modern, responsive, and fast websites.</p>
+        </div>
+        <div class="service-card">
+            <h2>App Development</h2>
+            <p>Custom mobile applications tailored to your needs.</p>
+        </div>
+        <div class="service-card">
+            <h2>SEO Optimization</h2>
+            <p>Rank higher and drive more traffic.</p>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
